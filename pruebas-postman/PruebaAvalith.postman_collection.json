@@ -11,12 +11,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8081/developers",
-					"protocol": "http",
+					"raw": "https://avalith-cristian-tapia.herokuapp.com/developers",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"avalith-cristian-tapia",
+						"herokuapp",
+						"com"
 					],
-					"port": "8081",
 					"path": [
 						"developers"
 					]
@@ -38,15 +39,16 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"nombres_completos\": \"Cristian Andres Tapia Jaya\",\r\n  \"link_github\": \"https://github.com/Cristian121T\",\r\n  \"tecnologias_conocidas\": \"Java, J2EE, Spring Boot\"\r\n}"
+					"raw": "{\r\n  \"nombres_completos\": \"Cristian Andres Tapia Jaya\",\r\n  \"link_github\": \"https://github.com/Cristian121T/Avalith\",\r\n  \"tecnologias_conocidas\": \"Java, J2EE, Spring Boot, .Net, Docker, Angular inicial, SQL Server, Postgres\"\r\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8081/developers",
-					"protocol": "http",
+					"raw": "https://avalith-cristian-tapia.herokuapp.com/developers",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"avalith-cristian-tapia",
+						"herokuapp",
+						"com"
 					],
-					"port": "8081",
 					"path": [
 						"developers"
 					]
@@ -68,18 +70,19 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"nombres_completos\": \"Cristian Andres Tapia Jaya\",\r\n  \"link_github\": \"https://github.com/Cristian121T\",\r\n  \"tecnologias_conocidas\": \"Java, J2EE, Spring Boot\"\r\n}"
+					"raw": "{\r\n  \"nombres_completos\": \"Cristian Andres Tapia Jaya\",\r\n  \"link_github\": \"https://github.com/Cristian121T\",\r\n  \"tecnologias_conocidas\": \"Ninguno\"\r\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8081/developers/1",
-					"protocol": "http",
+					"raw": "https://avalith-cristian-tapia.herokuapp.com/developers/2",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"avalith-cristian-tapia",
+						"herokuapp",
+						"com"
 					],
-					"port": "8081",
 					"path": [
 						"developers",
-						"1"
+						"2"
 					]
 				},
 				"description": "http://localhost:8081/developers/1"
@@ -99,12 +102,13 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:8081/developers/2",
-					"protocol": "http",
+					"raw": "https://avalith-cristian-tapia.herokuapp.com/developers/2",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"avalith-cristian-tapia",
+						"herokuapp",
+						"com"
 					],
-					"port": "8081",
 					"path": [
 						"developers",
 						"2"
@@ -120,12 +124,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8081/developers/2",
-					"protocol": "http",
+					"raw": "https://avalith-cristian-tapia.herokuapp.com/developers/2",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"avalith-cristian-tapia",
+						"herokuapp",
+						"com"
 					],
-					"port": "8081",
 					"path": [
 						"developers",
 						"2"
