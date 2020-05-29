@@ -1,6 +1,6 @@
 ##### Proceso de selección para Avalith #####
 
-####################################################################################################
+################################################################################################
 
 ** Diseño de la solucion **
 
@@ -12,17 +12,17 @@
 Se exponen 5 REST Api en los que se puede crear, buscar, editar y eliminar un desarrollador ademas 
 de listar todos los desarrolladores ingresados
 
-####################################################################################################
+################################################################################################
 
 ** Estructura del versionamiento **
 
 Avalith
 1. codigo-fuente
-1.1 avalith-selection-project
+1.1. avalith-selection-project
 2. docker
 3. pruebas-postman
 
-####################################################################################################
+################################################################################################
 
 ** Manual de instalacion **
 
@@ -37,4 +37,4 @@ docker run -d -p 8081:8081 -v deployApp:/home/app --name contenedorAvalithCristi
 
 * la aplicacion se ejecutar inmediatamente se ejecute el comando docker run
 
-####################################################################################################
+################################################################################################
