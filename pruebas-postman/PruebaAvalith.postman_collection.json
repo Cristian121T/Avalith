@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "cfa41542-057f-4350-8186-6da90aa686de",
+		"name": "PruebaAvalith",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Buscar todos los desarrolladores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/developers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"developers"
+					]
+				},
+				"description": "http://localhost:8081/developers"
+			},
+			"response": []
+		},
+		{
+			"name": "Crear desarrollador",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombres_completos\": \"Cristian Andres Tapia Jaya\",\r\n  \"link_github\": \"https://github.com/Cristian121T\",\r\n  \"tecnologias_conocidas\": \"Java, J2EE, Spring Boot\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8081/developers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"developers"
+					]
+				},
+				"description": "http://localhost:8081/developers"
+			},
+			"response": []
+		},
+		{
+			"name": "Editar desarrollador",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombres_completos\": \"Cristian Andres Tapia Jaya\",\r\n  \"link_github\": \"https://github.com/Cristian121T\",\r\n  \"tecnologias_conocidas\": \"Java, J2EE, Spring Boot\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8081/developers/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"developers",
+						"1"
+					]
+				},
+				"description": "http://localhost:8081/developers/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar desarrollador",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8081/developers/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"developers",
+						"2"
+					]
+				},
+				"description": "http://localhost:8081/developers/2"
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar desarrollador",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/developers/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"developers",
+						"2"
+					]
+				},
+				"description": "http://localhost:8081/developers/2"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

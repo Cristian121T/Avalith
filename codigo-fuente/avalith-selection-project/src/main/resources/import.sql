@@ -1,0 +1,1 @@
+INSERT INTO developers (nombres_completos, link_github, tecnologias_conocidas) VALUES ('Juan Prueba Perez Prueba','https://github.com/JuanPerezPrueba','Java, J2EE, Spring Boot')
